@@ -3,7 +3,7 @@ spring:
     ansi:
       enabled: always
 
-# eureka:
-#   client:
-#     service-url:
-#       defaultZone: http://${EUREKA_SERVER_URL:localhost:8081}/eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${EUREKA_SERVER_URL:localhost:8081}/eureka
