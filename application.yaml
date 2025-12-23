@@ -11,4 +11,4 @@ eureka:
 management:
   zipkin:
     tracing:
-      endpoint: http://{ZIPKIN_URL:localhost:9411}/api/v2/spans
+      endpoint: http://${ZIPKIN_URL:localhost:9411}/api/v2/spans
