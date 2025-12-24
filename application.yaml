@@ -23,8 +23,3 @@ management:
     web:
       exposure:
         include: health,info,env,configprops
-
-server:
-  tomcat:
-    accesslog:
-      enabled: true
