@@ -26,4 +26,4 @@ management:
 
 server:
   error:
-    include-binding-errors: on-param
+    include-binding-errors: always
